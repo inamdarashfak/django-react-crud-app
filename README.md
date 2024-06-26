@@ -23,47 +23,47 @@ This project demonstrates a CRUD (Create, Read, Update, Delete) application usin
    cd django-react-crud
 
 
-Backend Setup:
+## Backend Setup:
 
-Create a virtual environment:
-bash
-Copy code
+1. **Create a virtual environment:**
+
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run migrations:
-bash
-Copy code
-python manage.py migrate
-Start the Django server:
-bash
-Copy code
-python manage.py runserver
-Frontend Setup:
 
-Navigate to the frontend directory:
-bash
-Copy code
+## Install dependencies:
+
+pip install -r requirements.txt
+
+## Run migrations:
+
+python manage.py migrate
+
+## Start the Django server:
+
+python manage.py runserver
+
+## Frontend Setup:
+
+1. **Navigate to the frontend directory:**
+
 cd frontend
-Install dependencies:
-bash
-Copy code
+
+## Install dependencies:
+
 npm install  # or yarn install
-Start the React development server:
-bash
-Copy code
+
+## Start the React development server:
+
 npm start  # or yarn start
-Usage
+
+## Usage:
+
 Navigate to http://localhost:3000 in your browser to view the application.
+
 Use the interface to perform CRUD operations.
 Project Structure
 backend/: Contains the Django project and apps.
 frontend/: Contains the React application.
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
 
 License
 This project is licensed under the MIT License.
