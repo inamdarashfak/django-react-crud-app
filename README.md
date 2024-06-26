@@ -26,35 +26,42 @@ This project demonstrates a CRUD (Create, Read, Update, Delete) application usin
 ## Backend Setup:
 
 1. **Create a virtual environment:**
-
+```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
 
 ## Install dependencies:
-
+```bash
 pip install -r requirements.txt
+```
 
 ## Run migrations:
-
+```bash
 python manage.py migrate
+```
 
 ## Start the Django server:
-
+```bash
 python manage.py runserver
+```
 
 ## Frontend Setup:
 
 1. **Navigate to the frontend directory:**
-
+```bash
 cd frontend
+```
 
 ## Install dependencies:
-
+```bash
 npm install  # or yarn install
+```
 
 ## Start the React development server:
 ```bash
 npm start  # or yarn start
+```
 
 ## Usage:
 
