@@ -61,9 +61,11 @@ npm start  # or yarn start
 Navigate to http://localhost:3000 in your browser to view the application.
 
 Use the interface to perform CRUD operations.
-Project Structure
-backend/: Contains the Django project and apps.
-frontend/: Contains the React application.
 
-License
+## Project Structure
+- backend_project/: Contains the Django project and apps.
+- backend_api/: Contains the Django project and apps.
+- frontend/: Contains the React application.
+
+## License
 This project is licensed under the MIT License.
