@@ -53,7 +53,7 @@ cd frontend
 npm install  # or yarn install
 
 ## Start the React development server:
-
+```bash
 npm start  # or yarn start
 
 ## Usage:
